@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/igorskyflyer/{{repo}}/main/assets/extension.png" alt="Icon of {{project}}, a Visual Studio Code">
+</div>
+
 <h1 align="center">{{project}}</h1>
 
 <br>
@@ -38,12 +42,12 @@
 
 ## 📃 Table of contents
 
-- [Features](#-features)
-- [Usage](#-usage)
-- [Changelog](#-changelog)
-- [License](#-license)
-- [Related](#-related)
-- [Author](#-author)
+- [Features](#features)
+- [Usage](#usage)
+- [Changelog](#changelog)
+- [License](#license)
+- [Related](#related)
+- [Author](#author)
 
 ---
 
