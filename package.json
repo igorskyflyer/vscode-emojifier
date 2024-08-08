@@ -1,13 +1,13 @@
 {
-    "name": "{{pkg}}",
+    "name": "emojifier",
     "publisher": "igordvlpr",
-    "displayName": "{{project}}",
-    "version": "{{version}}",
-    "description": "{{desc}}",
+    "displayName": "Emojifier",
+    "version": "1.0.0",
+    "description": "🥳 A Visual Studio Code extension that emojifies the current file or selection. ⚽",
     "engines": {
         "vscode": "^1.92.0"
     },
-    "categories": ["{{cat}}"],
+    "categories": ["Other"],
     "activationEvents": [],
     "main": "dist/extension.js",
     "extensionKind": ["ui"],
@@ -26,26 +26,28 @@
     },
     "badges": [
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/v/igordvlpr.{{pkg}}?style=flat-square",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.{{pkg}}",
+            "url": "https://img.shields.io/visual-studio-marketplace/v/igordvlpr.emojifier?style=flat-square",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.emojifier",
             "description": "The latest version of this extension"
         },
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/i/igordvlpr.{{pkg}}?style=flat-square&color=%230AB242",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.{{pkg}}",
+            "url": "https://img.shields.io/visual-studio-marketplace/i/igordvlpr.emojifier?style=flat-square&color=%230AB242",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.emojifier",
             "description": "Number of installs for this extension"
         },
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/stars/igordvlpr.{{pkg}}?style=flat-square&color=%236D0AB2",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.{{pkg}}",
+            "url": "https://img.shields.io/visual-studio-marketplace/stars/igordvlpr.emojifier?style=flat-square&color=%236D0AB2",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.emojifier",
             "description": "Number of stars for this extension"
         }
     ],
     "contributes": {
         "commands": [
             {
-                "command": "ext.sayHello",
-                "title": "Say Hello!"
+                "command": "emojifier.apply",
+                "title": "Emojify selection",
+                "enablement": "editorHasSelection || editorHasMultipleSelections",
+                "category": "Emojifier"
             }
         ]
     },
@@ -58,7 +60,13 @@
         "pub": "vsce publish"
     },
     "keywords": [
-        "{{tags}}",
+        "emoji",
+        "text",
+        "string",
+        "smiley",
+        "utility",
+        "art",
+        "unicode",
         "vscode",
         "extension",
         "igorskyflyer",
@@ -71,20 +79,23 @@
         "url": "https://ko-fi.com/igorskyflyer"
     },
     "pricing": "Free",
-    "homepage": "https://github.com/igorskyflyer/{{repo}}",
+    "homepage": "https://github.com/igorskyflyer/vscode-emojifier",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/igorskyflyer/{{repo}}.git"
+        "url": "git+https://github.com/igorskyflyer/vscode-emojifier.git"
     },
     "bugs": {
-        "url": "https://github.com/igorskyflyer/{{repo}}/issues"
+        "url": "https://github.com/igorskyflyer/vscode-emojifier/issues"
     },
     "devDependencies": {
-        "@types/vscode": "^1.92.0",
         "@biomejs/biome": "^1.8.3",
         "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.3",
         "@types/node": "20.14.0",
-        "typescript": "^5.5.4",
-        "esbuild": "^0.23.0"
+        "@types/vscode": "^1.92.0",
+        "esbuild": "^0.23.0",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "@igor.dvlpr/emojilyzer": "^1.0.0"
     }
 }
