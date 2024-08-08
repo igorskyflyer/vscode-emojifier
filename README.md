@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/igorskyflyer/vscode-emojifier/main/assets/extension.png" alt="Icon of Emojifier, a Visual Studio Code">
+  <img src="https://raw.githubusercontent.com/igorskyflyer/vscode-emojifier/main/assets/extension.png" alt="Icon of Emojifier, a Visual Studio Code extension">
 </div>
 
 <h1 align="center">Emojifier</h1>
