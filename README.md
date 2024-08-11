@@ -87,7 +87,7 @@ Open a file, then open the *Command Palette* and click on `"Emojify the current 
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/vscode-emojifier/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/vscode-emojifier/blob/main/LICENSE.txt).
 
 ---
 
