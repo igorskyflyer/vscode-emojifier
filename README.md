@@ -7,7 +7,7 @@
 <br>
 
 <div align="center">
-  🥳 A Visual Studio Code extension that emojifies the current file or selection. ⚽
+  🥳 Emojifies the current file or selection. ⚽
 </div>
 
 <br>
