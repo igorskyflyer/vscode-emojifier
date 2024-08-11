@@ -44,6 +44,8 @@
 
 - [Features](#features)
 - [Usage](#usage)
+  - [Selection](#selection)
+  - [File](#file)
 - [Changelog](#changelog)
 - [License](#license)
 - [Related](#related)
@@ -53,15 +55,27 @@
 
 ## 🤖 Features
 
-- 
-- 
-- 
+- ☺️ fast and simple emojifying (process of replacing textual representation of emojis to graphical)
+- ✨ works for selection(s)
+- 🛸 works for whole files
 
 <br>
 
 ## 🕵🏼 Usage
 
+The extension exposes 2 commands, emojifying in the current selection and emojifying of the whole file.
+
+<br>
+
+### 🤿 Selection
+
+Open a file, make a single or multiple selection(s), then open the *Command Palette* and click on `"Emojify the selection"`.
+
 ---
+
+### 📃 File
+
+Open a file, then open the *Command Palette* and click on `"Emojify the current file"`.
 
 ## 📝 Changelog
 
