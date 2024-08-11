@@ -1,5 +1,5 @@
 {
-    "name": "emojifier",
+    "name": "igordvlpr-emojifier",
     "publisher": "igordvlpr",
     "displayName": "Emojifier",
     "version": "1.0.0",
@@ -16,7 +16,7 @@
             "supported": false
         },
         "untrustedWorkspaces": {
-            "supported": false
+            "supported": "limited"
         }
     },
     "icon": "assets/extension.png",
@@ -26,18 +26,18 @@
     },
     "badges": [
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/v/igordvlpr.emojifier?style=flat-square",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.emojifier",
+            "url": "https://img.shields.io/visual-studio-marketplace/v/igordvlpr.igor-dvlpr-emojifier?style=flat-square",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igor-dvplr-emojifier",
             "description": "The latest version of this extension"
         },
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/i/igordvlpr.emojifier?style=flat-square&color=%230AB242",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.emojifier",
+            "url": "https://img.shields.io/visual-studio-marketplace/i/igordvlpr.igor-dvlpr-emojifier?style=flat-square&color=%230AB242",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igor-dvlpr-emojifier",
             "description": "Number of installs for this extension"
         },
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/stars/igordvlpr.emojifier?style=flat-square&color=%236D0AB2",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.emojifier",
+            "url": "https://img.shields.io/visual-studio-marketplace/stars/igordvlpr.igor-dvlpr-emojifier?style=flat-square&color=%236D0AB2",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igor-dvlpr-emojifier",
             "description": "Number of stars for this extension"
         }
     ],
