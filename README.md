@@ -77,6 +77,8 @@ Open a file, make a single or multiple selection(s), then open the *Command Pale
 
 Open a file, then open the *Command Palette* and click on `"Emojify the current file"`.
 
+---
+
 ## 📝 Changelog
 
 📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/vscode-emojifier/blob/main/CHANGELOG.md).
