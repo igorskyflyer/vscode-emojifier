@@ -8,7 +8,7 @@
         "vscode": "^1.92.0"
     },
     "categories": ["Formatters", "Other"],
-    "activationEvents": [],
+    "activationEvents": ["onStartupFinished"],
     "main": "dist/extension.js",
     "extensionKind": ["ui"],
     "capabilities": {
