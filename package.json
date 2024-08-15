@@ -1,8 +1,8 @@
 {
     "name": "igordvlpr-emojifier",
-    "displayName": "Emojifier",
+    "displayName": "Emojifier :)",
     "publisher": "igordvlpr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🥳 Emojifies the current file or text selection. ⚽",
     "engines": {
         "vscode": "^1.92.0"
@@ -26,18 +26,18 @@
     },
     "badges": [
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/v/igordvlpr.igor-dvlpr-emojifier?style=flat-square",
+            "url": "https://img.shields.io/visual-studio-marketplace/v/igordvlpr.igordvlpr-emojifier?style=flat-square",
             "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igor-dvplr-emojifier",
             "description": "The latest version of this extension"
         },
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/i/igordvlpr.igor-dvlpr-emojifier?style=flat-square&color=%230AB242",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igor-dvlpr-emojifier",
+            "url": "https://img.shields.io/visual-studio-marketplace/i/igordvlpr.igordvlpr-emojifier?style=flat-square&color=%230AB242",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igordvlpr-emojifier",
             "description": "Number of installs for this extension"
         },
         {
-            "url": "https://img.shields.io/visual-studio-marketplace/stars/igordvlpr.igor-dvlpr-emojifier?style=flat-square&color=%236D0AB2",
-            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igor-dvlpr-emojifier",
+            "url": "https://img.shields.io/visual-studio-marketplace/stars/igordvlpr.igordvlpr-emojifier?style=flat-square&color=%236D0AB2",
+            "href": "https://marketplace.visualstudio.com/items?itemName=igordvlpr.igordvlpr-emojifier",
             "description": "Number of stars for this extension"
         }
     ],
