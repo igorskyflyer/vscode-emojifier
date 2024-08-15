@@ -1,7 +1,7 @@
 {
     "name": "igordvlpr-emojifier",
-    "publisher": "igordvlpr",
     "displayName": "Emojifier",
+    "publisher": "igordvlpr",
     "version": "1.0.0",
     "description": "🥳 Emojifies the current file or text selection. ⚽",
     "engines": {
