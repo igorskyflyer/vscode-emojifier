@@ -13,7 +13,7 @@
     "extensionKind": ["ui"],
     "capabilities": {
         "virtualWorkspaces": {
-            "supported": false
+            "supported": true
         },
         "untrustedWorkspaces": {
             "supported": "limited"
